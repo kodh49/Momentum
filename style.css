@@ -1,0 +1,36 @@
+body {
+  background-color: beige;
+}
+
+/* Universal Selector */
+* {
+  color: "black";
+}
+
+/* Type selector (Select all p-tag, h1-tag, etc.) */
+p {
+  background-color: aliceblue;
+  color: darkgreen;
+}
+
+div {
+  background-color: aqua;
+  color: blueviolet;
+}
+
+/* Class selector (Select element with specific classname) */
+.hello {
+  font-size: large;
+  background-color: chocolate;
+}
+
+/* Only div tag that has a classname 'hello' */
+div.hello {
+  background: fixed;
+  color: black;
+}
+
+/* ID Selector (Select an element with specific id attribute) */
+#3rd {
+  color: blue;
+}
